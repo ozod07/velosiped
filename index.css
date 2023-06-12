@@ -1,0 +1,212 @@
+.wrap{
+    border: 1px solid;
+    width: 1010px;
+    height: 700px;
+    background-color: aquamarine;
+}
+.rama{
+    margin-top: 100px;
+    margin-left: 300px;
+    border: 15px solid;
+    width: 300px;
+    height: 270px;
+    transform: skew(150deg);
+    position: absolute;
+    z-index: 1;
+}
+.rama1{
+    margin-top: 85px;
+    margin-left: 455px;
+    border: 3px solid;
+    width: 10px;
+    height: 330px;
+    transform: skew(-155deg);
+    position: absolute;
+    z-index: 1; 
+    background-color: black;
+}
+.egar{
+    margin-top: 63px;
+    margin-left: 350px;
+    border: 1px solid;
+    width: 80px;
+    height: 20px;
+    transform: skew(-155deg);
+    position: absolute;
+    z-index: 1; 
+    background-color: black;
+}
+.aylana1{
+    margin-top: 235px;
+    margin-left: 80px;
+    border:15px solid;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(red, yellow, blue);
+    animation-name: aylana1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aylana1{
+    from{
+        transform: rotate(-360deg);
+    }
+}
+.vilka{
+    background-color: black;
+    margin-top: 45px;
+    margin-left: 735px;
+    border:2px solid;
+    width: 10px;
+    height: 350px; 
+    position: absolute;
+    z-index: 3;
+    transform: skew(-170deg);
+}
+.rul{
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 660px;
+    border:1px solid;
+    width: 100px;
+    height: 15px; 
+    position: absolute;
+    z-index: 6;
+    transform: skew(-170deg); 
+}
+.aylana2{
+    margin-top: 235px;
+    margin-left: 620px;
+    border:15px solid;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 4;
+    background-image: linear-gradient(red, yellow, blue);
+    animation-name: aylana2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aylana2{
+    from{
+        transform: rotate(-360deg);
+    }}
+.aylana3{
+    margin-top: 325px;
+    margin-left: 470px;
+    border:15px solid;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 5;
+  background-color: yellow;
+    animation-name: aylana3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aylana3{
+    from{
+        transform: rotate(-360deg);
+    }}
+.pedal{
+    position: absolute;
+    z-index: 7;
+    top: 37px;
+    left: 45px;
+    border:1px solid;
+    width: 50px;
+    height: 15px;
+   
+    background-color: black;
+    
+}
+.road{
+    position: relative;
+    border: 5px solid grey;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    position: absolute;
+    top: 300px;
+    z-index: 0;
+}
+.tosh1{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    z-index: 0;
+}
+.tosh2{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 0;
+}
+.tosh3{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    z-index: 0;
+}
+.tosh4{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    z-index: 0;
+}
+.tosh5{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    z-index: 0;
+}
+.tosh6{
+    border: 1px solid white;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    z-index: 0;
+}
+.tosh{
+    animation-name: tosh;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes tosh {
+    from{
+        transform: translate(-500px, 0px) ;
+    }
+
+}
